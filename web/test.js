@@ -375,3 +375,21 @@
 //     return otp;
 // }
 // console.log(generateOTP());
+
+
+// function  time(am, pm){
+//     let day = 12;
+//     let night = 12
+//     let min = 45;
+//     let sec = 45
+
+//     if(am <= day){
+//         console.log(am +":"+min+":"+sec+"AM");
+//     }
+//     if(pm >= night) {
+//         console.log(pm +":"+min+":"+sec+"PM");
+//     } 
+
+    
+// }
+// time(1,18)
