@@ -339,14 +339,15 @@
 //     console.log("HEllo");
 // }
 // function y(x){
-//     x();
+//    x();
 // }
+
 
 // Pure Function
 // function calculateGST( productPrice ) {
 //     return productPrice * 0.05;
 // }
-// calculateGST(12)
+// calculateGST()
 
 
 // Star Pattern
@@ -432,6 +433,8 @@
 // x.id = 41
 // console.log(x);
 
+
+//  Currrying Function
 // function area(length){
 //     return function(height){
 //         return function(weith){
@@ -473,17 +476,68 @@
 
 
 // Find the counts of elements of an unsorted integer array which are equal to the average of all elements of that array.
-// let arr = [ 1,3,2,4,5];
+// let arr = [ 1,3,2,4,5,5,4,4];
 // let sum = 0;
 // let map = new Map();
 // for(let i=0; i<arr.length; i++){
 //   sum += arr[i];
+// //   console.log(sum);
 //   if(!map[arr[i]]){
 //     map[arr[i]] =1;
+//     // console.log( map[arr[i]] =1);
 //   }
 //   else{
 //     map[arr[i]] +=1;
+//     // console.log(map[arr[i]]);
+//     console.log(map[arr[i]] +=1);
 //   }
 // }
 // let avg = sum/arr.length;
 // console.log(map[avg]);
+
+// let arr = [1, 5, 6, 8, 2, 4, 7, 3, 3];
+// console.log(arr);
+// let arr1 = arr.sort()
+// let new_arr = []
+// for(let i=0; i < arr1.length ; i++ ){
+//     new_arr.push(arr1.length-1-i)
+//     // console.log(arr1.length-1-i);
+//     if(new_arr.length==arr1.length){
+//         console.log(new_arr);
+//     }
+//         new_arr.push(arr1[i])
+// }
+
+// let a = "ajdiafd";
+// var obj = "";
+
+
+// function find(arr) {
+// 	const count = [];
+// 	for (let i = 0; i < arr.length; i++) {
+// 		const val = arr[i];
+// 		if (val in count) {
+// 			count[val] = count[val] + 1;
+// 		} else {
+// 			count[val] = 1;
+// 		}
+// 	}
+
+// 	for (let key in count) {
+// 		console.log(count[key] + ":" + key );
+// 	}
+// }
+// find(["a","j","d","i","a","f","d"]);
+
+// let arr = [1,2,3,4,5,6,7];
+// let new_arr = []
+// let new_arr1 = []
+// for(let i = 0; i<arr.length; i++){
+//     new_arr.push(arr[i]);
+//     new_arr1.push(arr.length-i);
+    
+// }
+// console.log(new_arr);
+// console.log(new_arr1);
+
+
